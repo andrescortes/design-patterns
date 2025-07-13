@@ -1,0 +1,67 @@
+# === Java ===
+*.class
+*.jar
+*.war
+*.ear
+
+# IDEs and tools
+/.classpath
+/.project
+/.settings/
+/target/
+/bin/
+/build/
+
+# Maven
+/logs/
+/*.log
+*.iml
+*.ipr
+*.iws
+/.idea/
+/.mvn/
+/dependency-reduced-pom.xml
+
+# Gradle
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Java temp files
+hs_err_pid*
+replay_pid*
+
+# === Deno ===
+# Deno cache and vendor folders
+/deno.lock
+/deno.json
+/deno.jsonc
+/deno_dir/
+/vendor/
+
+# === Node/Deno (General TS support) ===
+*.tsbuildinfo
+node_modules
+# === OS/Editor Specific ===
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# JetBrains (IntelliJ, WebStorm, etc.)
+.idea/
+*.iml
+
+# VSCode
+.vscode/
+
+# Environment files
+.env
+.env.*
+

@@ -1,0 +1,18 @@
+export const COLORS = {
+    brown: 'color: brown',
+    red: 'color: red',
+    green: 'color: green',
+    blue: 'color: blue',
+    yellow: 'color: yellow',
+    cyan: 'color: cyan',
+    magenta: 'color: magenta',
+    black: 'color: black',
+    white: 'color: white',
+    gray: 'color: gray',
+    lightGray: 'color: lightgray',
+    darkGray: 'color: darkgray',
+    orange: 'color: orange',
+    purple: 'color: purple',
+    pink: 'color: pink',
+    lightBlue: 'color: lightblue',
+}

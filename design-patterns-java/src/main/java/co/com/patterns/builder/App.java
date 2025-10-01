@@ -9,5 +9,22 @@ public class App {
                     .gpu("4070ti Super")
                     .build();
             computer.displayConfiguration();
+
+            Computer highComputer = new Computer.ComputerBuilder()
+                    .cpu("Ryzen 7 9800X3D")
+                    .ram("64GB")
+                    .storage("2TB nvme")
+                    .gpu("4090 24Gb")
+                    .build();
+        highComputer.displayConfiguration();
+
+        String query = new Query.QueryBuilder("users")
+                .select("id", "name", "email")
+                .where("age > 18")
+                .where("country = 'cri'")
+                .orderBy("name", "ASC")
+                .limit(10)
+                .execute();
+        System.out.println("query = " + query);
     }
 }
